@@ -34,7 +34,7 @@ I got better at using HTML semantic tags
 
 @Gareth-Moore
 
-1. Thank you for the help on using semantic HTML tags instead of only <div></div>
+1. Thank you for the help on using semantic HTML tags instead of only <div>
 
 2. I learnt to use % on the width, instead of using a fixed value.
 
