@@ -32,6 +32,8 @@ I got better at using HTML semantic tags
 
 ## Acknowledgments
 
+Thank you jdward75 - all your help and teaching has helped me so much!:)
+
 @Gareth-Moore
 
 1. Thank you for the help on using semantic HTML tags instead of only div
