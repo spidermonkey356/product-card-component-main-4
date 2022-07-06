@@ -29,17 +29,18 @@ body {
 	align-items: center;
 	background-color: var(--cream);
 
-	/* border: 2px solid lime; */
+	/* border: 10px solid olivedrab; */
 }
 
 .product-card {
-	width: 80%;
-	max-width: 748px;
+	display: flex;
+	flex-direction: column;
+	width: 350px;
 	background-color: var(--white);
 	border-radius: 10px;
 	overflow: hidden;
 
-	/* border: 2px solid lightcoral; */
+	/* outline: 2px solid goldenrod; */
 }
 
 .product-image {
@@ -53,77 +54,78 @@ body {
 .product-description {
 	margin: 30px;
 
-	/* border: 2px solid rebeccapurple; */
+	/* outline: 2px solid rebeccapurple; */
 }
 
-h1 {
+/* h3 {
 	color: var(--dark-grayish-blue);
 
-	/* border: 2px solid lightcoral; */
-}
-
-p {
-	font-size: 0.8125rem;
-	color: var(--dark-grayish-blue);
-
-	/* border: 2px solid goldenrod; */
-}
-
-p.perfume-txt {
-	text-transform: uppercase;
-	letter-spacing: 0.3125rem;
-	font-size: 1rem;
-	font-weight: 400;
-
-	/* border: 2px solid hotpink; */
-}
+	outline: 2px solid lightcoral;
+} */
 
 .heading-txt {
 	color: var(--very-dark-blue);
 	font-family: Fraunces;
-	font-size: 2.7rem;
+	font-size: 1.9rem;
 	font-weight: 700;
 	margin-top: 1.25rem;
 
-	/* border: 1.5px solid lightseagreen; */
+	/* outline: 4px solid lightseagreen; */
+}
+
+p {
+	font-size: 0.875rem;
+	color: var(--dark-grayish-blue);
+
+	/* outline: 2px solid goldenrod; */
+}
+
+p.perfume-txt {
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	letter-spacing: 0.3125rem;
+	font-weight: 500;
+
+	/* outline: 1px solid lime; */
 }
 
 p.paragraph-txt {
 	margin-top: 1.5625rem;
-	line-height: 2;
-	font-size: 1rem;
-	font-weight: 300;
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-weight: 500;
 	color: var(--dark-grayish-blue);
 
-	/* border: 1px solid rebeccapurple; */
+	/* outline: 1px solid hotpink; */
 }
 
 .price-container {
-	margin-top: 45px;
+	margin-top: 20px;
 	display: flex;
 	align-items: center;
 	gap: 20px;
 
-	/* border: 2px solid lime; */
+	/* outline: 2px solid firebrick; */
 }
 
 .new-price {
 	font-family: "Fraunces", serif;
-	font-size: 2.5rem;
-	font-weight: 900;
+	font-size: 2rem;
+	font-weight: 700;
 	color: var(--dark-green);
 
-	/* border: 2px solid saddlebrown; */
+	/* outline: 2px solid saddlebrown; */
 }
 
 .original-price {
 	font-family: "Montserrat", sans-serif;
-	font-size: 1rem;
+	/* font-size: 1rem; */
+	font-size: 0.875rem;
 	font-weight: 500;
 	color: var(--dark-grayish-blue);
 	text-decoration: line-through;
 
-	/* border: 2px solid deepskyblue; */
+	/* outline: 2px solid deepskyblue; */
 }
 
 .btn-dark-green {
@@ -131,20 +133,20 @@ p.paragraph-txt {
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	padding: 1.5em;
+	padding: 1em;
 	cursor: pointer;
-	margin-top: 40px;
+	margin-top: 20px;
 	color: white;
 	letter-spacing: 0.2px;
 	border: none;
 	background-color: var(--dark-green);
-	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
 
 	border-radius: 10px;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 1rem;
 
-	/* border: 2px solid lightcoral; */
+	/* outline: 2px solid lightcoral; */
 }
 
 .btn-dark-green:hover {
@@ -158,28 +160,28 @@ p.paragraph-txt {
 	margin-right: 12px;
 	transform: scale(120%);
 
-	/* border: 2px solid goldenrod; */
+	/* outline: 2px solid goldenrod; */
 }
 
 /* ************************* */
 /* ****** Media query ****** */
 /* ************************* */
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 750px) {
 	.product-card {
-		display: flex;
 		flex-direction: row;
-		width: 80%;
-		max-width: 800px;
+		align-items: center;
+		width: 600px;
+
 		/* iPad Mini 768 x 1024 */
 
-		/* border: 5px solid lime; */
+		/* outline: 5px solid lime; */
 	}
 
 	.product-image {
 		width: 50%;
 		content: url(images/image-product-desktop.jpg);
 
-		/* border: 4px solid cadetblue; */
+		/* outline: 4px solid cadetblue; */
 	}
 }

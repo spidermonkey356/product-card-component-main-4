@@ -32,12 +32,14 @@ I got better at using HTML semantic tags
 
 ## Acknowledgments
 
-Thank you jdward75 - all your help and teaching has helped me so much!:)
+Thank you jdward75 - for all your help
 
 @Gareth-Moore
 
-1. Thank you for the help on using semantic HTML tags instead of only div
+1. Thank you for the help on using semantic HTML tags instead of only <div></div>
 
 2. I learnt to use % on the width, instead of using a fixed value.
 
 3. I used width: 80% with max-width and this really helped me.
+
+4. I began to understand the Flexbox align-items property better.
